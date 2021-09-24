@@ -17,7 +17,7 @@ public class App {
 //        }
 
         String text = "Hello java regex 2-12-2018, hello world 12/12/2018";
-        String regex = "\\d{1,2}[-|/]\\d{1,2}[-|/]\\d{4}";
+        String regex = "\\d{2}[-|/]\\d{2}[-|/]\\d{4}";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(text);
 
